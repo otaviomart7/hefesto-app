@@ -1,0 +1,1545 @@
+{
+  "servicos": [
+    "Impressão 3D FDM",
+    "Impressão 3D Resina (SLA/DLP/LCD)",
+    "Prototipagem Rápida",
+    "Peças Sob Demanda",
+    "Peças de Reposição Industrial",
+    "Modelagem CAD e Engenharia Reversa",
+    "Acabamento e Pós-Processamento",
+    "Inserção de Insertos Roscados",
+    "Pintura Técnica e Detalhamento",
+    "Tratamento Térmico / Annealing",
+    "Vapor de Acetona (Suavização)",
+    "Digitalização 3D Laser",
+    "Produção em Pequenas Séries",
+    "Esterilização para Uso Médico/Odontológico",
+    "Sinterização de Metais (Debinding/Sintering)"
+  ],
+  "materiais": [
+    {
+      "id": "pla",
+      "nome": "PLA Standard",
+      "linha": "virgem",
+      "precoGrama": 0.09,
+      "descricao": "Fácil de imprimir, bom acabamento. Indicado para protótipos e peças decorativas.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Branco",
+          "hex": "#f2f2f2"
+        },
+        {
+          "nome": "Vermelho",
+          "hex": "#d62828"
+        },
+        {
+          "nome": "Azul",
+          "hex": "#1d5fd1"
+        },
+        {
+          "nome": "Verde",
+          "hex": "#2fa84f"
+        },
+        {
+          "nome": "Amarelo",
+          "hex": "#f4c430"
+        },
+        {
+          "nome": "Laranja",
+          "hex": "#ff7f00"
+        },
+        {
+          "nome": "Roxo",
+          "hex": "#6a0dad"
+        },
+        {
+          "nome": "Rosa",
+          "hex": "#ff69b4"
+        },
+        {
+          "nome": "Ciano",
+          "hex": "#00ffff"
+        }
+      ]
+    },
+    {
+      "id": "pla-tough",
+      "nome": "PLA Tough / HT-PLA",
+      "linha": "virgem",
+      "precoGrama": 0.14,
+      "descricao": "PLA modificado para maior resistência mecânica e de impacto, próximo ao ABS.",
+      "cores": [
+        {
+          "nome": "Preto Tático",
+          "hex": "#1a1a1a"
+        },
+        {
+          "nome": "Branco Névoa",
+          "hex": "#f8f9fa"
+        },
+        {
+          "nome": "Cinza Nardo",
+          "hex": "#6c757d"
+        },
+        {
+          "nome": "Verde Oliva",
+          "hex": "#556b2f"
+        }
+      ]
+    },
+    {
+      "id": "pla-silk",
+      "nome": "PLA Silk Tri-Color",
+      "linha": "virgem",
+      "precoGrama": 0.22,
+      "descricao": "Efeito metalizado brilhante com três cores divididas que mudam conforme o ângulo de visão.",
+      "cores": [
+        {
+          "nome": "Camaleão (Ouro / Azul / Roxo)",
+          "hex": "#8a2be2"
+        },
+        {
+          "nome": "Seda Dourada",
+          "hex": "#ffd700"
+        },
+        {
+          "nome": "Seda Prata",
+          "hex": "#c0c0c0"
+        },
+        {
+          "nome": "Seda Cobre",
+          "hex": "#b87333"
+        },
+        {
+          "nome": "Magma (Vermelho / Ouro)",
+          "hex": "#ff4500"
+        }
+      ]
+    },
+    {
+      "id": "pla-wood",
+      "nome": "PLA Madeira Composite",
+      "linha": "virgem",
+      "precoGrama": 0.35,
+      "descricao": "Composto por PLA e 20% fibras reais de madeira. Aceita lixamento e envernizamento.",
+      "cores": [
+        {
+          "nome": "Carvalho Natural",
+          "hex": "#c19a6b"
+        },
+        {
+          "nome": "Mogno Escuro",
+          "hex": "#4a2c11"
+        },
+        {
+          "nome": "Pinus Claro",
+          "hex": "#e3c896"
+        }
+      ]
+    },
+    {
+      "id": "pla-glow",
+      "nome": "PLA Glow in the Dark (Fosforescente)",
+      "linha": "especial",
+      "precoGrama": 0.25,
+      "descricao": "Contém aditivos fosforescentes que absorvem luz e brilham no escuro.",
+      "cores": [
+        {
+          "nome": "Verde Verdejante Glow",
+          "hex": "#00ff66"
+        },
+        {
+          "nome": "Azul Neon Glow",
+          "hex": "#00dfff"
+        }
+      ]
+    },
+    {
+      "id": "pla-thermo",
+      "nome": "PLA Termocrômico",
+      "linha": "especial",
+      "precoGrama": 0.28,
+      "descricao": "Muda de cor conforme a variação de temperatura (ex: acima de 31°C).",
+      "cores": [
+        {
+          "nome": "Cinza para Branco",
+          "hex": "#808080"
+        },
+        {
+          "nome": "Roxo para Rosa",
+          "hex": "#800080"
+        }
+      ]
+    },
+    {
+      "id": "petg",
+      "nome": "PETG",
+      "linha": "virgem",
+      "precoGrama": 0.11,
+      "descricao": "Resistente a impacto e umidade, com boa adesão entre camadas e flexibilidade média.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Branco",
+          "hex": "#f2f2f2"
+        },
+        {
+          "nome": "Transparente",
+          "hex": "#cfe3ea"
+        },
+        {
+          "nome": "Azul Translúcido",
+          "hex": "#1d5fd1"
+        },
+        {
+          "nome": "Verde Translúcido",
+          "hex": "#2fa84f"
+        },
+        {
+          "nome": "Vermelho Translúcido",
+          "hex": "#e63946"
+        }
+      ]
+    },
+    {
+      "id": "petg-cf",
+      "nome": "PETG Fibra de Carbono",
+      "linha": "virgem",
+      "precoGrama": 0.38,
+      "descricao": "PETG reforçado com 15% fibra de carbono. Alta rigidez e acabamento fosco sem linhas aparentes.",
+      "cores": [
+        {
+          "nome": "Grafite Escuro",
+          "hex": "#1c1e20"
+        }
+      ]
+    },
+    {
+      "id": "petg-esd",
+      "nome": "PETG Anti-Estático (ESD)",
+      "linha": "especial",
+      "precoGrama": 0.65,
+      "descricao": "MANTÉM a facilidade do PETG com proteção contra descargas eletrostáticas.",
+      "cores": [
+        {
+          "nome": "Preto Onix",
+          "hex": "#0f0f0f"
+        }
+      ]
+    },
+    {
+      "id": "abs",
+      "nome": "ABS Standard",
+      "linha": "virgem",
+      "precoGrama": 0.12,
+      "descricao": "Resistência térmica e mecânica para peças funcionais. Permite acabamento por acetona.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Branco",
+          "hex": "#f2f2f2"
+        },
+        {
+          "nome": "Cinza",
+          "hex": "#8a8d94"
+        },
+        {
+          "nome": "Vermelho",
+          "hex": "#d62828"
+        },
+        {
+          "nome": "Amarelo Segurança",
+          "hex": "#ffd100"
+        }
+      ]
+    },
+    {
+      "id": "abs-esd",
+      "nome": "ABS Anti-Estático (ESD)",
+      "linha": "especial",
+      "precoGrama": 0.85,
+      "descricao": "ABS com dissipação eletrostática para proteção de circuitos e componentes eletrônicos.",
+      "cores": [
+        {
+          "nome": "Preto Industrial",
+          "hex": "#0a0a0a"
+        }
+      ]
+    },
+    {
+      "id": "asa",
+      "nome": "ASA High-UV",
+      "linha": "virgem",
+      "precoGrama": 0.15,
+      "descricao": "Alta resistência a raios UV e intempéries. Ideal para peças de uso externo ou automotivo.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Branco UV",
+          "hex": "#f2f2f2"
+        },
+        {
+          "nome": "Cinza Automotivo",
+          "hex": "#5a5d64"
+        },
+        {
+          "nome": "Verde Militar",
+          "hex": "#4b5320"
+        }
+      ]
+    },
+    {
+      "id": "tpu",
+      "nome": "TPU 95A",
+      "linha": "virgem",
+      "precoGrama": 0.18,
+      "descricao": "Flexível e elástico. Vedações, capas e peças que precisam absorver impacto.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Laranja",
+          "hex": "#f28c1b"
+        },
+        {
+          "nome": "Azul",
+          "hex": "#1d5fd1"
+        },
+        {
+          "nome": "Transparente",
+          "hex": "#e0f7fa"
+        },
+        {
+          "nome": "Vermelho",
+          "hex": "#d62828"
+        }
+      ]
+    },
+    {
+      "id": "tpu-soft",
+      "nome": "TPU Ultra Soft 85A",
+      "linha": "virgem",
+      "precoGrama": 0.42,
+      "descricao": "TPU altamente flexível e macio ao toque. Usado em palmilhas, gaxetas e amortecedores.",
+      "cores": [
+        {
+          "nome": "Preto Soft",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Azul Translúcido",
+          "hex": "#0055ff"
+        }
+      ]
+    },
+    {
+      "id": "tpe",
+      "nome": "TPE 60A (Goma Elástica)",
+      "linha": "especial",
+      "precoGrama": 0.55,
+      "descricao": "Elastômero de extrema flexibilidade com toque emborrachado e alto atrito.",
+      "cores": [
+        {
+          "nome": "Preto Borracha",
+          "hex": "#121212"
+        },
+        {
+          "nome": "Cinza Claro",
+          "hex": "#d3d3d3"
+        }
+      ]
+    },
+    {
+      "id": "nylon",
+      "nome": "Nylon PA12",
+      "linha": "virgem",
+      "precoGrama": 0.22,
+      "descricao": "Alta resistência ao desgaste e fadiga, usado em engrenagens e buchas mecânicas.",
+      "cores": [
+        {
+          "nome": "Natural",
+          "hex": "#e8e2cf"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "nylon-pa6",
+      "nome": "Nylon PA6/66 High Strength",
+      "linha": "virgem",
+      "precoGrama": 0.29,
+      "descricao": "Nylon estrutural de alta resistência mecânica para cargas pesadas.",
+      "cores": [
+        {
+          "nome": "Natural",
+          "hex": "#f0ede6"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "fibra-de-carbono",
+      "nome": "Nylon PA12-CF (Fibra de Carbono)",
+      "linha": "virgem",
+      "precoGrama": 0.35,
+      "descricao": "Polímero de engenharia ultra rígido, leve e resistente para substituição de metais.",
+      "cores": [
+        {
+          "nome": "Preto Carbono",
+          "hex": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "nylon-gf",
+      "nome": "Nylon PA12-GF (Fibra de Vidro)",
+      "linha": "virgem",
+      "precoGrama": 0.32,
+      "descricao": "Nylon reforçado com microesferas de vidro para alta estabilidade dimensional e isolamento elétrico.",
+      "cores": [
+        {
+          "nome": "Cinza Titanio",
+          "hex": "#3a3a3c"
+        }
+      ]
+    },
+    {
+      "id": "policarbonato",
+      "nome": "Policarbonato (PC)",
+      "linha": "virgem",
+      "precoGrama": 0.48,
+      "descricao": "Extremamente tenaz e resistente a altas temperaturas (até 115°C) e fortes impactos.",
+      "cores": [
+        {
+          "nome": "Transparente Cristal",
+          "hex": "#e0f7fa"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Branco Ópaco",
+          "hex": "#ffffff"
+        }
+      ]
+    },
+    {
+      "id": "pc-abs",
+      "nome": "Blenda PC-ABS",
+      "linha": "virgem",
+      "precoGrama": 0.30,
+      "descricao": "Combina a facilidade de processamento do ABS com a alta resistência ao impacto do Policarbonato.",
+      "cores": [
+        {
+          "nome": "Preto Mate",
+          "hex": "#1a1a1a"
+        },
+        {
+          "nome": "Branco Industrial",
+          "hex": "#f0f0f0"
+        }
+      ]
+    },
+    {
+      "id": "pp",
+      "nome": "Polipropileno (PP)",
+      "linha": "virgem",
+      "precoGrama": 0.26,
+      "descricao": "Excelente resistência química, resistente à fadiga por dobramento (dobradiças vivas) e atóxico.",
+      "cores": [
+        {
+          "nome": "Natural / Semitransparente",
+          "hex": "#f5f5dc"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "pei-ultem",
+      "nome": "PEI Ultem 1010",
+      "linha": "especial",
+      "precoGrama": 4.50,
+      "descricao": "Superpolímero de grau aeroespacial. Suporta mais de 200°C e esterilização em autoclave.",
+      "cores": [
+        {
+          "nome": "Âmbar Natural",
+          "hex": "#ffc107"
+        }
+      ]
+    },
+    {
+      "id": "peek",
+      "nome": "PEEK (Polyether Ether Ketone)",
+      "linha": "especial",
+      "precoGrama": 7.80,
+      "descricao": "Polímero de altíssimo desempenho para aplicações médicas, automotivas e aeroespaciais extremas.",
+      "cores": [
+        {
+          "nome": "Bege Térmico",
+          "hex": "#d2b48c"
+        },
+        {
+          "nome": "Preto Profundo",
+          "hex": "#050505"
+        }
+      ]
+    },
+    {
+      "id": "metal-316l",
+      "nome": "Filamet Inox 316L (Filamento Metálico)",
+      "linha": "especial",
+      "precoGrama": 2.20,
+      "descricao": "Contém 80%+ de pó de Aço Inoxidável 316L. Requer processo posterior de debinding e sinterização.",
+      "cores": [
+        {
+          "nome": "Metálico Bruto",
+          "hex": "#808080"
+        }
+      ]
+    },
+    {
+      "id": "pva-suporte",
+      "nome": "PVA (Suporte Solúvel em Água)",
+      "linha": "suporte",
+      "precoGrama": 0.55,
+      "descricao": "Material de suporte para impressões complexas em PLA/PETG. Dissolve totalmente em água.",
+      "cores": [
+        {
+          "nome": "Branco Marfim",
+          "hex": "#fffdd0"
+        }
+      ]
+    },
+    {
+      "id": "hips-suporte",
+      "nome": "HIPS (Suporte Solúvel em Limoneno)",
+      "linha": "suporte",
+      "precoGrama": 0.28,
+      "descricao": "Material de suporte para ABS e ASA. Dissolvido quimicamente em D-Limoneno.",
+      "cores": [
+        {
+          "nome": "Branco Neutro",
+          "hex": "#f5f5f5"
+        }
+      ]
+    },
+    {
+      "id": "resina-standard",
+      "nome": "Resina Standard (SLA/LCD)",
+      "linha": "virgem",
+      "precoGrama": 0.25,
+      "descricao": "Alta precisão de detalhes e superfície ultra lisa para miniaturas, colecionáveis e protótipos.",
+      "cores": [
+        {
+          "nome": "Cinza Detalhe",
+          "hex": "#707070"
+        },
+        {
+          "nome": "Branco",
+          "hex": "#ffffff"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Translúcido Clear",
+          "hex": "#e0ffff"
+        }
+      ]
+    },
+    {
+      "id": "resina-abs-like",
+      "nome": "Resina Tough ABS-Like",
+      "linha": "virgem",
+      "precoGrama": 0.38,
+      "descricao": "Resina de fotopolímero formulada para simular a tenacidade e resistência a quedas do ABS.",
+      "cores": [
+        {
+          "nome": "Cinza Técnico",
+          "hex": "#505050"
+        },
+        {
+          "nome": "Preto Mate",
+          "hex": "#1a1a1a"
+        }
+      ]
+    },
+    {
+      "id": "resina-flexible",
+      "nome": "Resina Flexível / Rubber-Like",
+      "linha": "virgem",
+      "precoGrama": 0.49,
+      "descricao": "Resina para impressão de peças flexíveis com elastocidade e toque emborrachado.",
+      "cores": [
+        {
+          "nome": "Preto Borracha",
+          "hex": "#1a1a1a"
+        },
+        {
+          "nome": "Transparente",
+          "hex": "#f0ffff"
+        }
+      ]
+    },
+    {
+      "id": "resina-castable",
+      "nome": "Resina Calcinável (Castable)",
+      "linha": "especial",
+      "precoGrama": 0.95,
+      "descricao": "Resina com zero cinzas após queima, usada para fundição por cera perdida em joalheria.",
+      "cores": [
+        {
+          "nome": "Verde Esmeralda Cast",
+          "hex": "#004b23"
+        },
+        {
+          "nome": "Violeta Cast",
+          "hex": "#3c096c"
+        }
+      ]
+    },
+    {
+      "id": "resina-dental",
+      "nome": "Resina Odontológica / Guia Cirúrgico",
+      "linha": "especial",
+      "precoGrama": 1.40,
+      "descricao": "Resina biocompatível de grau médico para guias cirúrgicos, modelos ortodônticos e alinhadores.",
+      "cores": [
+        {
+          "nome": "Transparente Biocompatível",
+          "hex": "#f0f8ff"
+        },
+        {
+          "nome": "Gengiva Rosa",
+          "hex": "#ffb6c1"
+        }
+      ]
+    },
+    {
+      "id": "resina-high-temp",
+      "nome": "Resina High Temp (300°C)",
+      "linha": "especial",
+      "precoGrama": 0.85,
+      "descricao": "Resina com resistência a altíssimas temperaturas, ideal para moldes de injeção e teste de ar quente.",
+      "cores": [
+        {
+          "nome": "Âmbar Claro",
+          "hex": "#ffbf00"
+        }
+      ]
+    },
+    {
+      "id": "eco-pla",
+      "nome": "Eco-Tech PLA Reciclado",
+      "linha": "reciclado",
+      "precoGrama": 0.07,
+      "descricao": "Filamento reprocessado internamente, menor custo por grama e menor impacto ambiental.",
+      "cores": [
+        {
+          "nome": "Cinza Reciclado",
+          "hex": "#8a8d94"
+        },
+        {
+          "nome": "Preto Reciclado",
+          "hex": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "eco-petg",
+      "nome": "Eco-Tech PETG Reciclado",
+      "linha": "reciclado",
+      "precoGrama": 0.09,
+      "descricao": "PETG reciclado com excelente adesão de camada e certificação de resistência técnica.",
+      "cores": [
+        {
+          "nome": "Cinza Reciclado",
+          "hex": "#8a8d94"
+        },
+        {
+          "nome": "Preto Reciclado",
+          "hex": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "eco-abs",
+      "nome": "Eco-Tech ABS Reciclado",
+      "linha": "reciclado",
+      "precoGrama": 0.08,
+      "descricao": "ABS reaproveitado de sucata industrial pós-consumo, ideal para gabaritos e ferramentas internas.",
+      "cores": [
+        {
+          "nome": "Preto Reciclado",
+          "hex": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "pla-matte",
+      "nome": "PLA Matte (Fosco)",
+      "linha": "virgem",
+      "precoGrama": 0.16,
+      "descricao": "PLA com acabamento fosco para peças decorativas e apresentações.",
+      "cores": [
+        {
+          "nome": "Preto Fosco",
+          "hex": "#222222"
+        },
+        {
+          "nome": "Branco Fosco",
+          "hex": "#f5f5f0"
+        },
+        {
+          "nome": "Cinza Fosco",
+          "hex": "#858585"
+        },
+        {
+          "nome": "Bege Fosco",
+          "hex": "#d6c3a5"
+        },
+        {
+          "nome": "Verde Sálvia",
+          "hex": "#9caf88"
+        }
+      ]
+    },
+    {
+      "id": "pla-plus",
+      "nome": "PLA+ Premium",
+      "linha": "virgem",
+      "precoGrama": 0.12,
+      "descricao": "PLA modificado para melhorar a tenacidade e reduzir a fragilidade.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Branco",
+          "hex": "#f2f2f2"
+        },
+        {
+          "nome": "Cinza",
+          "hex": "#808080"
+        },
+        {
+          "nome": "Azul Royal",
+          "hex": "#2455c3"
+        },
+        {
+          "nome": "Vermelho",
+          "hex": "#d62828"
+        }
+      ]
+    },
+    {
+      "id": "pla-marble",
+      "nome": "PLA Marble",
+      "linha": "especial",
+      "precoGrama": 0.24,
+      "descricao": "PLA com efeito de mármore para esculturas, vasos e objetos decorativos.",
+      "cores": [
+        {
+          "nome": "Mármore Branco",
+          "hex": "#e7e5e4"
+        },
+        {
+          "nome": "Mármore Preto",
+          "hex": "#383838"
+        },
+        {
+          "nome": "Mármore Cinza",
+          "hex": "#969696"
+        }
+      ]
+    },
+    {
+      "id": "pla-glitter",
+      "nome": "PLA Glitter",
+      "linha": "especial",
+      "precoGrama": 0.25,
+      "descricao": "Filamento com partículas brilhantes para peças decorativas.",
+      "cores": [
+        {
+          "nome": "Preto Glitter",
+          "hex": "#202020"
+        },
+        {
+          "nome": "Rosa Glitter",
+          "hex": "#d87093"
+        },
+        {
+          "nome": "Azul Glitter",
+          "hex": "#4169e1"
+        },
+        {
+          "nome": "Dourado Glitter",
+          "hex": "#daa520"
+        }
+      ]
+    },
+    {
+      "id": "pla-transparent",
+      "nome": "PLA Translúcido",
+      "linha": "virgem",
+      "precoGrama": 0.16,
+      "descricao": "PLA translúcido para efeitos visuais decorativos.",
+      "cores": [
+        {
+          "nome": "Natural Translúcido",
+          "hex": "#e8f3ee"
+        },
+        {
+          "nome": "Azul Translúcido",
+          "hex": "#73b8e8"
+        },
+        {
+          "nome": "Vermelho Translúcido",
+          "hex": "#ef6a72"
+        },
+        {
+          "nome": "Verde Translúcido",
+          "hex": "#83c995"
+        }
+      ]
+    },
+    {
+      "id": "pla-gradient",
+      "nome": "PLA Gradient",
+      "linha": "especial",
+      "precoGrama": 0.28,
+      "descricao": "Filamento com transição gradual de cores para modelos artísticos.",
+      "cores": [
+        {
+          "nome": "Arco-Íris",
+          "hex": "#ff6b6b"
+        },
+        {
+          "nome": "Azul para Roxo",
+          "hex": "#6157d9"
+        },
+        {
+          "nome": "Rosa para Amarelo",
+          "hex": "#f6a6c1"
+        },
+        {
+          "nome": "Verde para Azul",
+          "hex": "#22a699"
+        }
+      ]
+    },
+    {
+      "id": "pla-cf",
+      "nome": "PLA com Fibra de Carbono",
+      "linha": "virgem",
+      "precoGrama": 0.32,
+      "descricao": "PLA reforçado para maior rigidez e acabamento fosco. Pode exigir bico resistente à abrasão.",
+      "cores": [
+        {
+          "nome": "Preto Carbono",
+          "hex": "#252525"
+        },
+        {
+          "nome": "Cinza Carbono",
+          "hex": "#505050"
+        }
+      ]
+    },
+    {
+      "id": "pla-gf",
+      "nome": "PLA com Fibra de Vidro",
+      "linha": "virgem",
+      "precoGrama": 0.27,
+      "descricao": "PLA reforçado para melhorar rigidez e estabilidade dimensional.",
+      "cores": [
+        {
+          "nome": "Cinza Técnico",
+          "hex": "#777777"
+        },
+        {
+          "nome": "Natural",
+          "hex": "#d8d3c4"
+        }
+      ]
+    },
+    {
+      "id": "petg-ht",
+      "nome": "PETG High Temperature",
+      "linha": "virgem",
+      "precoGrama": 0.19,
+      "descricao": "Formulação de PETG voltada para maior estabilidade térmica, conforme o fabricante.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Cinza",
+          "hex": "#777777"
+        },
+        {
+          "nome": "Natural",
+          "hex": "#dce6e8"
+        }
+      ]
+    },
+    {
+      "id": "petg-gf",
+      "nome": "PETG com Fibra de Vidro",
+      "linha": "virgem",
+      "precoGrama": 0.34,
+      "descricao": "PETG reforçado para maior rigidez e estabilidade dimensional.",
+      "cores": [
+        {
+          "nome": "Cinza Industrial",
+          "hex": "#666b70"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#202020"
+        }
+      ]
+    },
+    {
+      "id": "petg-uv",
+      "nome": "PETG UV Resistant",
+      "linha": "virgem",
+      "precoGrama": 0.17,
+      "descricao": "PETG com aditivos para maior resistência ao envelhecimento por exposição solar.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Branco",
+          "hex": "#f2f2f2"
+        },
+        {
+          "nome": "Cinza",
+          "hex": "#73777d"
+        }
+      ]
+    },
+    {
+      "id": "abs-plus",
+      "nome": "ABS+ Industrial",
+      "linha": "virgem",
+      "precoGrama": 0.16,
+      "descricao": "ABS modificado para melhorar resistência ao impacto e estabilidade durante a impressão.",
+      "cores": [
+        {
+          "nome": "Preto Industrial",
+          "hex": "#171717"
+        },
+        {
+          "nome": "Branco",
+          "hex": "#f5f5f5"
+        },
+        {
+          "nome": "Cinza",
+          "hex": "#858585"
+        }
+      ]
+    },
+    {
+      "id": "abs-gf",
+      "nome": "ABS com Fibra de Vidro",
+      "linha": "virgem",
+      "precoGrama": 0.34,
+      "descricao": "ABS reforçado para aplicações que exigem rigidez e estabilidade dimensional.",
+      "cores": [
+        {
+          "nome": "Cinza Técnico",
+          "hex": "#62666a"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#191919"
+        }
+      ]
+    },
+    {
+      "id": "asa-cf",
+      "nome": "ASA com Fibra de Carbono",
+      "linha": "virgem",
+      "precoGrama": 0.38,
+      "descricao": "ASA reforçado para peças externas rígidas com acabamento fosco.",
+      "cores": [
+        {
+          "nome": "Preto Carbono",
+          "hex": "#202020"
+        },
+        {
+          "nome": "Cinza Grafite",
+          "hex": "#464646"
+        }
+      ]
+    },
+    {
+      "id": "pc-ht",
+      "nome": "Policarbonato High Temperature",
+      "linha": "virgem",
+      "precoGrama": 0.55,
+      "descricao": "Policarbonato para aplicações técnicas com exigência de resistência mecânica e térmica.",
+      "cores": [
+        {
+          "nome": "Natural",
+          "hex": "#e8e8df"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        }
+      ]
+    },
+    {
+      "id": "pc-cf",
+      "nome": "Policarbonato com Fibra de Carbono",
+      "linha": "virgem",
+      "precoGrama": 0.78,
+      "descricao": "PC reforçado para peças rígidas. Pode exigir impressora de alta temperatura e bico endurecido.",
+      "cores": [
+        {
+          "nome": "Preto Carbono",
+          "hex": "#222222"
+        }
+      ]
+    },
+    {
+      "id": "pc-gf",
+      "nome": "Policarbonato com Fibra de Vidro",
+      "linha": "virgem",
+      "precoGrama": 0.68,
+      "descricao": "Compósito de PC com maior rigidez e estabilidade dimensional.",
+      "cores": [
+        {
+          "nome": "Cinza Técnico",
+          "hex": "#666666"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#181818"
+        }
+      ]
+    },
+    {
+      "id": "nylon-pa12-gf30",
+      "nome": "Nylon PA12-GF30",
+      "linha": "virgem",
+      "precoGrama": 0.48,
+      "descricao": "Nylon PA12 reforçado com aproximadamente 30% de fibra de vidro, conforme formulação.",
+      "cores": [
+        {
+          "nome": "Cinza Industrial",
+          "hex": "#60666a"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#171717"
+        }
+      ]
+    },
+    {
+      "id": "nylon-pa6-cf",
+      "nome": "Nylon PA6-CF",
+      "linha": "virgem",
+      "precoGrama": 0.42,
+      "descricao": "Poliamida PA6 reforçada com fibra de carbono para peças estruturais rígidas.",
+      "cores": [
+        {
+          "nome": "Preto Carbono",
+          "hex": "#242424"
+        }
+      ]
+    },
+    {
+      "id": "nylon-pa612",
+      "nome": "Nylon PA612",
+      "linha": "virgem",
+      "precoGrama": 0.34,
+      "descricao": "Poliamida técnica com resistência ao desgaste e absorção de umidade dependente da formulação.",
+      "cores": [
+        {
+          "nome": "Natural",
+          "hex": "#e8dfc9"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#151515"
+        }
+      ]
+    },
+    {
+      "id": "nylon-pa11",
+      "nome": "Nylon PA11 Biobased",
+      "linha": "virgem",
+      "precoGrama": 0.62,
+      "descricao": "Poliamida de origem parcialmente renovável, com boa tenacidade e resistência ao impacto.",
+      "cores": [
+        {
+          "nome": "Natural",
+          "hex": "#e6dfd1"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#171717"
+        }
+      ]
+    },
+    {
+      "id": "tpu-90a",
+      "nome": "TPU 90A",
+      "linha": "virgem",
+      "precoGrama": 0.22,
+      "descricao": "Elastômero flexível para capas, amortecedores, proteções e componentes elásticos.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Vermelho",
+          "hex": "#d62828"
+        },
+        {
+          "nome": "Azul",
+          "hex": "#1d5fd1"
+        }
+      ]
+    },
+    {
+      "id": "tpu-98a",
+      "nome": "TPU 98A",
+      "linha": "virgem",
+      "precoGrama": 0.20,
+      "descricao": "TPU relativamente firme para rodas, pés, proteções e peças flexíveis.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#111111"
+        },
+        {
+          "nome": "Branco",
+          "hex": "#f2f2f2"
+        },
+        {
+          "nome": "Laranja",
+          "hex": "#f28c1b"
+        }
+      ]
+    },
+    {
+      "id": "tpu-85a",
+      "nome": "TPU 85A Flexível",
+      "linha": "virgem",
+      "precoGrama": 0.39,
+      "descricao": "TPU macio para amortecimento, vedações e peças com elevada deformação elástica.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#171717"
+        },
+        {
+          "nome": "Azul",
+          "hex": "#2864dc"
+        }
+      ]
+    },
+    {
+      "id": "tpe-83a",
+      "nome": "TPE 83A",
+      "linha": "especial",
+      "precoGrama": 0.48,
+      "descricao": "Elastômero termoplástico para peças emborrachadas, amortecedores e acessórios flexíveis.",
+      "cores": [
+        {
+          "nome": "Preto Borracha",
+          "hex": "#181818"
+        },
+        {
+          "nome": "Cinza",
+          "hex": "#858585"
+        }
+      ]
+    },
+    {
+      "id": "tpc",
+      "nome": "TPC (Elastômero Copoliéster)",
+      "linha": "especial",
+      "precoGrama": 0.58,
+      "descricao": "Elastômero técnico com flexibilidade e resistência química dependentes da formulação.",
+      "cores": [
+        {
+          "nome": "Preto",
+          "hex": "#151515"
+        },
+        {
+          "nome": "Natural",
+          "hex": "#ddd8cc"
+        }
+      ]
+    },
+    {
+      "id": "bvoh",
+      "nome": "BVOH (Suporte Solúvel)",
+      "linha": "suporte",
+      "precoGrama": 0.95,
+      "descricao": "Material de suporte solúvel em água para impressões multimateriais compatíveis.",
+      "cores": [
+        {
+          "nome": "Natural",
+          "hex": "#f0eadb"
+        }
+      ]
+    },
+    {
+      "id": "pva-plus",
+      "nome": "PVA Premium Solúvel",
+      "linha": "suporte",
+      "precoGrama": 0.68,
+      "descricao": "Suporte solúvel em água para geometrias complexas e sistemas multimateriais.",
+      "cores": [
+        {
+          "nome": "Branco Natural",
+          "hex": "#f3eee0"
+        }
+      ]
+    },
+    {
+      "id": "hips-impact",
+      "nome": "HIPS High Impact",
+      "linha": "suporte",
+      "precoGrama": 0.32,
+      "descricao": "Poliestireno de alto impacto utilizável em peças ou como suporte removível por processo compatível.",
+      "cores": [
+        {
+          "nome": "Branco",
+          "hex": "#f5f5f5"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#171717"
+        }
+      ]
+    },
+    {
+      "id": "pp-gf",
+      "nome": "Polipropileno com Fibra de Vidro",
+      "linha": "virgem",
+      "precoGrama": 0.42,
+      "descricao": "PP reforçado para aumentar a rigidez em componentes sujeitos a agentes químicos.",
+      "cores": [
+        {
+          "nome": "Cinza Técnico",
+          "hex": "#777777"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#151515"
+        }
+      ]
+    },
+    {
+      "id": "pbt",
+      "nome": "PBT (Polibutileno Tereftalato)",
+      "linha": "virgem",
+      "precoGrama": 0.52,
+      "descricao": "Polímero de engenharia com estabilidade dimensional e resistência química.",
+      "cores": [
+        {
+          "nome": "Natural",
+          "hex": "#e8e2d4"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#161616"
+        }
+      ]
+    },
+    {
+      "id": "pbt-gf",
+      "nome": "PBT com Fibra de Vidro",
+      "linha": "virgem",
+      "precoGrama": 0.72,
+      "descricao": "PBT reforçado para componentes rígidos com maior estabilidade dimensional.",
+      "cores": [
+        {
+          "nome": "Cinza Industrial",
+          "hex": "#666b70"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#171717"
+        }
+      ]
+    },
+    {
+      "id": "pom",
+      "nome": "POM / Acetal",
+      "linha": "especial",
+      "precoGrama": 0.85,
+      "descricao": "Polímero de baixo atrito para componentes mecânicos. Impressão difícil e dependente de equipamento adequado.",
+      "cores": [
+        {
+          "nome": "Branco Natural",
+          "hex": "#f0eee6"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#171717"
+        }
+      ]
+    },
+    {
+      "id": "pvdf",
+      "nome": "PVDF",
+      "linha": "especial",
+      "precoGrama": 1.20,
+      "descricao": "Fluoropolímero técnico com elevada resistência química e requisitos especiais de processamento.",
+      "cores": [
+        {
+          "nome": "Natural",
+          "hex": "#f0eee7"
+        }
+      ]
+    },
+    {
+      "id": "pps",
+      "nome": "PPS",
+      "linha": "especial",
+      "precoGrama": 1.90,
+      "descricao": "Polímero de alto desempenho com resistência química e térmica para aplicações industriais.",
+      "cores": [
+        {
+          "nome": "Preto Técnico",
+          "hex": "#222222"
+        },
+        {
+          "nome": "Natural",
+          "hex": "#c9c6ba"
+        }
+      ]
+    },
+    {
+      "id": "pps-cf",
+      "nome": "PPS com Fibra de Carbono",
+      "linha": "especial",
+      "precoGrama": 2.80,
+      "descricao": "PPS reforçado para aplicações industriais de alta exigência térmica, química e estrutural.",
+      "cores": [
+        {
+          "nome": "Preto Carbono",
+          "hex": "#1c1c1c"
+        }
+      ]
+    },
+    {
+      "id": "pei-9085",
+      "nome": "PEI Ultem 9085",
+      "linha": "especial",
+      "precoGrama": 5.20,
+      "descricao": "Polímero de engenharia de alto desempenho para aplicações industriais e de transporte.",
+      "cores": [
+        {
+          "nome": "Âmbar",
+          "hex": "#d99b24"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#202020"
+        }
+      ]
+    },
+    {
+      "id": "pekk",
+      "nome": "PEKK",
+      "linha": "especial",
+      "precoGrama": 9.50,
+      "descricao": "Polímero da família PAEK para aplicações industriais exigentes e processamento em alta temperatura.",
+      "cores": [
+        {
+          "nome": "Natural Bege",
+          "hex": "#d6c4a4"
+        },
+        {
+          "nome": "Preto",
+          "hex": "#191919"
+        }
+      ]
+    },
+    {
+      "id": "peek-cf",
+      "nome": "PEEK com Fibra de Carbono",
+      "linha": "especial",
+      "precoGrama": 10.50,
+      "descricao": "PEEK reforçado com fibra de carbono para componentes técnicos leves e rígidos.",
+      "cores": [
+        {
+          "nome": "Preto Carbono",
+          "hex": "#202020"
+        }
+      ]
+    },
+    {
+      "id": "peek-gf",
+      "nome": "PEEK com Fibra de Vidro",
+      "linha": "especial",
+      "precoGrama": 9.80,
+      "descricao": "PEEK reforçado para aplicações que exigem estabilidade dimensional e desempenho térmico.",
+      "cores": [
+        {
+          "nome": "Cinza Técnico",
+          "hex": "#666666"
+        },
+        {
+          "nome": "Natural",
+          "hex": "#c9bda5"
+        }
+      ]
+    },
+    {
+      "id": "metal-copper",
+      "nome": "Filamet Cobre",
+      "linha": "especial",
+      "precoGrama": 2.80,
+      "descricao": "Filamento carregado com pó de cobre, que exige debinding e sinterização conforme o fabricante.",
+      "cores": [
+        {
+          "nome": "Cobre Bruto",
+          "hex": "#b87333"
+        }
+      ]
+    },
+    {
+      "id": "metal-bronze",
+      "nome": "Filamet Bronze",
+      "linha": "especial",
+      "precoGrama": 2.60,
+      "descricao": "Filamento com carga metálica para peças decorativas ou funcionais após pós-processamento.",
+      "cores": [
+        {
+          "nome": "Bronze Bruto",
+          "hex": "#8c6239"
+        }
+      ]
+    },
+    {
+      "id": "metal-copperfill",
+      "nome": "PLA Copper-Fill",
+      "linha": "especial",
+      "precoGrama": 0.55,
+      "descricao": "PLA com partículas de cobre para acabamento decorativo. Não equivale a cobre maciço.",
+      "cores": [
+        {
+          "nome": "Cobre Acetinado",
+          "hex": "#b87333"
+        }
+      ]
+    },
+    {
+      "id": "metal-brassfill",
+      "nome": "PLA Brass-Fill",
+      "linha": "especial",
+      "precoGrama": 0.52,
+      "descricao": "PLA com partículas de latão para peças decorativas com aparência metálica.",
+      "cores": [
+        {
+          "nome": "Latão Dourado",
+          "hex": "#b5a642"
+        }
+      ]
+    },
+    {
+      "id": "metal-ironfill",
+      "nome": "PLA Iron-Fill",
+      "linha": "especial",
+      "precoGrama": 0.50,
+      "descricao": "PLA com partículas ferrosas para modelos decorativos com aparência de ferro.",
+      "cores": [
+        {
+          "nome": "Ferro Escuro",
+          "hex": "#555555"
+        }
+      ]
+    },
+    {
+      "id": "eco-pla-plus",
+      "nome": "Eco-Tech PLA+ Reciclado",
+      "linha": "reciclado",
+      "precoGrama": 0.08,
+      "descricao": "PLA reciclado para aplicações gerais. As propriedades podem variar entre lotes.",
+      "cores": [
+        {
+          "nome": "Preto Reciclado",
+          "hex": "#242424"
+        },
+        {
+          "nome": "Cinza Reciclado",
+          "hex": "#888888"
+        }
+      ]
+    },
+    {
+      "id": "eco-nylon",
+      "nome": "Eco-Tech Nylon Reciclado",
+      "linha": "reciclado",
+      "precoGrama": 0.18,
+      "descricao": "Poliamida reciclada para protótipos e peças técnicas não críticas.",
+      "cores": [
+        {
+          "nome": "Natural Reciclado",
+          "hex": "#c9c1ad"
+        },
+        {
+          "nome": "Preto Reciclado",
+          "hex": "#262626"
+        }
+      ]
+    },
+    {
+      "id": "eco-tpu",
+      "nome": "Eco-Tech TPU Reciclado",
+      "linha": "reciclado",
+      "precoGrama": 0.15,
+      "descricao": "Elastômero reciclado para peças flexíveis. Dureza e elasticidade variam conforme a matéria-prima.",
+      "cores": [
+        {
+          "nome": "Preto Reciclado",
+          "hex": "#292929"
+        },
+        {
+          "nome": "Cinza Reciclado",
+          "hex": "#777777"
+        }
+      ]
+    }
+  ]
+}

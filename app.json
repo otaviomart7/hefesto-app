@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Hefesto",
+    "slug": "hefesto-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0e1018",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0e1018"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.hefesto.app"
+    },
+    "android": {
+      "package": "br.com.hefesto.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0e1018"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
